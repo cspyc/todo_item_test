@@ -3,8 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="03e40296-669b-4892-8720-30890963e861" name="Default Changelist" comment="" />
+    <list default="true" id="03e40296-669b-4892-8720-30890963e861" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +48,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1waJRalPfD656BugrUNW1R4L8lz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,23 +59,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/me/pyc" />
     <property name="last_opened_file_path" value="/opt/visualvm_207/bin/visualvm" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="me.pyc.todo.core.service" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.pyc.todo.core.entity" />
+      <recent name="me.pyc.todo.core" />
       <recent name="me.pyc.project.init" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ToDoItemServiceTest.should_return_item_when_add_item">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,8 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToDoItemServiceTest.should_return_item_when_add_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo_item_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.pyc.todo.core.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.pyc.todo.core" />
+      <option name="MAIN_CLASS_NAME" value="me.pyc.todo.core.ToDoItemServiceTest" />
+      <option name="METHOD_NAME" value="should_return_item_when_add_item" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToDoItemServiceTest.should_return_item_when_add_item" />
         <item itemvalue="JUnit.ProjectFirstTest.should_initial_first_junit5_test" />
       </list>
     </recent_temporary>
@@ -87,40 +138,87 @@
       <workItem from="1628690762607" duration="79000" />
       <workItem from="1628690882188" duration="76000" />
       <workItem from="1628690987561" duration="1493000" />
+      <workItem from="1628692498831" duration="648000" />
+      <workItem from="1629297315482" duration="1474000" />
+      <workItem from="1629299510922" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="622" y="248" width="655" height="548" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1629298989052">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="622" y="248" width="655" height="548" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1629298989052" />
+    <state x="653" y="365" width="614" height="326" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629298972748">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="653" y="365" width="614" height="326" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1629298972748" />
+    <state x="627" y="213" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629298792041">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="213" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1629298792041" />
     <state x="689" y="224" width="530" height="596" key="FileChooserDialogImpl" timestamp="1628690816157">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="689" y="224" width="530" height="596" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1628690816157" />
-    <state width="1862" height="262" key="GridCell.Tab.0.bottom" timestamp="1628691695835">
+    <state width="1862" height="302" key="GridCell.Tab.0.bottom" timestamp="1629299571521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1628691695835" />
-    <state width="1862" height="262" key="GridCell.Tab.0.center" timestamp="1628691695834">
+    <state width="1862" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1629299571521" />
+    <state width="1862" height="302" key="GridCell.Tab.0.center" timestamp="1629299571521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1628691695834" />
-    <state width="1862" height="262" key="GridCell.Tab.0.left" timestamp="1628691695833">
+    <state width="1862" height="302" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1629299571521" />
+    <state width="1862" height="302" key="GridCell.Tab.0.left" timestamp="1629299571520">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1628691695833" />
-    <state width="1862" height="262" key="GridCell.Tab.0.right" timestamp="1628691695834">
+    <state width="1862" height="302" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1629299571520" />
+    <state width="1862" height="302" key="GridCell.Tab.0.right" timestamp="1629299571521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1628691695834" />
+    <state width="1862" height="302" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1629299571521" />
+    <state width="1862" height="325" key="GridCell.Tab.1.bottom" timestamp="1629299053053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1862" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1629299053053" />
+    <state width="1862" height="325" key="GridCell.Tab.1.center" timestamp="1629299053053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1862" height="325" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1629299053053" />
+    <state width="1862" height="325" key="GridCell.Tab.1.left" timestamp="1629299053053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1862" height="325" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1629299053053" />
+    <state width="1862" height="325" key="GridCell.Tab.1.right" timestamp="1629299053053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1862" height="325" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1629299053053" />
     <state x="324" y="71" key="SettingsEditor" timestamp="1628690938816">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="324" y="71" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1628690938816" />
-    <state width="623" height="498" key="SwitcherDM" timestamp="1628691639505">
+    <state width="623" height="529" key="SwitcherDM" timestamp="1629299916135">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="623" height="498" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1628691639505" />
+    <state width="623" height="529" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1629299916135" />
+    <state x="663" y="289" width="573" height="465" key="chooseDestDirectoryDialog" timestamp="1629298916476">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="663" y="289" width="573" height="465" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1629298916476" />
   </component>
 </project>
