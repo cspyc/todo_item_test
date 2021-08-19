@@ -13,9 +13,13 @@ public class ToDoItemRepository {
     private static Map<Integer, ToDoItem> toDoItemRepository = new HashMap<Integer, ToDoItem>();
 
     public ToDoItem addToDoItem(ToDoItem item) {
-        if (item != null && null != item.getId()) {
-            toDoItemRepository.put(item.getId(), item);
+        if (item != null && null != item.getIndex()) {
+            toDoItemRepository.put(item.getIndex(), item);
         }
         return item;
+    }
+
+    public ToDoItem queryItemByIndex(Integer index) {
+        return toDoItemRepository.get(index);
     }
 }

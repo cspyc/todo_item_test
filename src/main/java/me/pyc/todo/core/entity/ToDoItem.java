@@ -6,10 +6,11 @@ package me.pyc.todo.core.entity;
  **/
 public class ToDoItem {
     private String name;
-    private Integer id;
+    private Integer index;
+    private Integer statue = 0;
 
-    public ToDoItem(Integer id, String itemName) {
-        this.id = id;
+    public ToDoItem(Integer index, String itemName) {
+        this.index = index;
         this.name = itemName;
     }
 
@@ -17,7 +18,16 @@ public class ToDoItem {
         return this.name;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getIndex() {
+        return index;
+    }
+
+    public Boolean done() {
+        this.statue = 1;
+        return true;
+    }
+
+    public Integer getStatue() {
+        return this.statue;
     }
 }

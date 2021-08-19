@@ -1,6 +1,7 @@
 package me.pyc.todo.core.service;
 
 import me.pyc.todo.core.entity.ToDoItem;
+import me.pyc.todo.core.repository.ToDoItemRepository;
 
 /**
  * @author pi
@@ -8,8 +9,29 @@ import me.pyc.todo.core.entity.ToDoItem;
  **/
 public class ToDoItemService {
 
-    public ToDoItem addToDoItem(ToDoItem toDoItem) {
+    private ToDoItemRepository repository;
 
-        return toDoItem;
+    public ToDoItemService() {
+        this.repository = new ToDoItemRepository();
+    }
+
+    public ToDoItem addToDoItem(ToDoItem toDoItem) {
+        ToDoItem result = repository.addToDoItem(toDoItem);
+        return result;
+    }
+
+    public ToDoItem queryItemByIndex(Integer index) {
+        ToDoItem item = repository.queryItemByIndex(index);
+        return item;
+    }
+
+    public Boolean doneToDoItem(Integer index) {
+        try {
+            ToDoItem item = repository.queryItemByIndex(index);
+            item.done();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
